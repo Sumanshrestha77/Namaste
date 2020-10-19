@@ -1,0 +1,171 @@
+@media screen 
+  and (device-width: 640px) 
+  and (device-height: 320px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+    #headpic{
+		height:200px;
+		width:100%;
+	}
+
+    *{overflow-x: hidden;}
+	.teamimg{
+		width:200px;
+		height:200px;
+	}
+
+	.teamdiv{
+	width:100%;
+	height:350px;
+	text-align: center;
+	border:1px red solid;
+	margin-bottom:7px;
+	}
+.teamdes{
+	text-align: center;
+	color:white;
+	font-size:12px;
+	}
+	#team{
+		height:1200px;
+	}
+		#aboutus{
+		height:750px;
+	}
+	.sociali{
+		height: 35px;
+		width: 35px;
+	}
+
+	.footer{
+		margin-top:1px;
+		height:200px;
+		overflow:hidden;
+	}
+
+}
+#headpic{
+		height:200px;
+		width:100%;
+	}
+
+    *{overflow-x: hidden;}
+	.teamimg{
+		width:200px;
+		height:200px;
+	}
+
+	.teamdiv{
+	width:100%;
+	height:350px;
+	text-align: center;
+	border:1px red solid;
+	margin-bottom:7px;
+	}
+.teamdes{
+	text-align: center;
+	color:white;
+	font-size:12px;
+	}
+	#team{
+		height:1200px;
+	}
+		#aboutus{
+		height:750px;
+	}
+	.sociali{
+		height: 35px;
+		width: 35px;
+	}
+
+	.footer{
+		margin-top:1px;
+		height:200px;
+		overflow:hidden;
+	}
+ @media screen 
+and (device-width: 640px) 
+and (device-height: 320px) 
+and (-webkit-device-pixel-ratio: 2) 
+and (orientation: landscape) {
+    #headpic{
+		height:200px;
+		width:100%;
+	}
+
+    *{overflow-x: hidden;}
+	.teamimg{
+		width:200px;
+		height:200px;
+	}
+
+	.teamdiv{
+	width:100%;
+	height:350px;
+	text-align: center;
+	border:1px red solid;
+	margin-bottom:7px;
+	}
+.teamdes{
+	text-align: center;
+	color:white;
+	font-size:12px;
+	}
+	#team{
+		height:1200px;
+	}
+		#aboutus{
+		height:750px;
+	}
+	.sociali{
+		height: 35px;
+		width: 35px;
+	}
+
+	.footer{
+		margin-top:1px;
+		height:200px;
+		overflow:hidden;
+	}
+
+}
+#headpic{
+		height:200px;
+		width:100%;
+	}
+
+    *{overflow-x: hidden;}
+	.teamimg{
+		width:200px;
+		height:200px;
+	}
+
+	.teamdiv{
+	width:100%;
+	height:350px;
+	text-align: center;
+	border:1px red solid;
+	margin-bottom:7px;
+	}
+.teamdes{
+	text-align: center;
+	color:white;
+	font-size:12px;
+	}
+	#team{
+		height:600px;
+	}
+		#aboutus{
+		height:600px;
+	}
+	.sociali{
+		height: 35px;
+		width: 35px;
+	}
+
+	.footer{
+		margin-top:1px;
+		height:200px;
+		overflow:hidden;
+    }
+}
