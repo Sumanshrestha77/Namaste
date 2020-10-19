@@ -1,7 +1,7 @@
 /*adjusting screen of smaller device*/
-@media screen and (max-width:600px) {
+    @media screen and (max-width:600px) {
 	#headpic{
-		height:150px;
+		height:100px;
 		width:100%;
 	}
 
@@ -24,7 +24,7 @@
 	font-size:12px;
 	}
 	#team{
-		height:950px;
+		height:1500px;
 	}
 		#aboutus{
 		height:1450px;
