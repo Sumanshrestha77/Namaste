@@ -2,25 +2,60 @@
 <html lang="en">
     <head>
         <title>Sign Up</title>
+        <link rel="icon" href="icon.jpg" type="image/icon type">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="signcss.css">
+        <link rel="stylesheet" href="signupquery.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="signcss.css">
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="jquery.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div id="info">
+        <div class="row container-fluid" style="width:100%;">
+            <img src="Namaste.jpg" id="headpic" alt="companylogo">
+        </div>
+        <div class="col-md-6" id="info">
             <h4>Why sign up?</h4>
             <ul>-->To know about our incoming events</ul>
             <ul>-->To get exiciting offer in our services</ul>
             <ul>-->To know what we are up to</ul> 
         </div>
-        <div class="col-md-6">
-            <input type="email" placeholder="email">
-            <br>
-            <button id="btn">submit</button>
+        <div class="col-md-6" id="contact">
+            <form method="POST" name="contact_form" action="contact_form_hander.php">
+            <h5>Enter your name:</h5>
+            <input type="text" name="name">
+            <h5>Enter your email:</h5>
+            <input type="text" name="email"><br><br>
+            <button type="submit" value="submit" id="btn">submit</button>
+            </form>
         </div>
+        <!--<script>
+            $errors = '';
+$myemail = 'smnxrst39@gmail.com';//<-----Put Your email address here.
+if(empty($_POST['name'])  || 
+   empty($_POST['email']))
+{
+    $errors .= "\n Error: all fields are required";
+}
+
+$name = $_POST['name']; 
+$email_address = $_POST['email'];  
+
+if (!preg_match(
+"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
+$email_address))
+{
+    $errors .= "\n Error: Invalid email address";
+}
+        </script>
+        <script language="JavaScript">
+            var frmvalidator  = new Validator("contactform");
+            frmvalidator.addValidation("name","req","Please provide your name");
+            frmvalidator.addValidation("email","req","Please provide your email");
+            frmvalidator.addValidation("email","email",
+              "Please enter a valid email address");
+            </script>-->
     </body>
 </html>
