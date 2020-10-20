@@ -6,6 +6,9 @@
 		height:200px;
 		width:100%;
 	}
+	#latest{
+		height:400px;
+	}
 
     *{overflow-x: hidden;}
 	.teamimg{
@@ -26,10 +29,10 @@
 	font-size:12px;
 	}
 	#team{
-		height:1200px;
+		height:600px;
 	}
 		#aboutus{
-		height:750px;
+		height:400px;
 	}
 	.sociali{
 		height: 35px;
@@ -38,7 +41,7 @@
 
 	.footer{
 		margin-top:1px;
-		height:200px;
+		height:150px;
 		overflow:hidden;
 	}
 }
