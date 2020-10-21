@@ -25,12 +25,13 @@
 	height:400px;
 	overflow: hidden;
 	margin:0px 1px 1px 0px;
+	
 }
 #latest{
 	background-color:#313a3b;
 	color:white;
 	padding: 50px;
-	height:474px;
+	height:465px;
 	overflow: hidden;
 	margin:0px 0px 1px 0px;
 }
@@ -48,14 +49,16 @@
 #team{
 	background-color:#313a3b;
 	color:white;
-	padding: 50px;
+	padding: 25px;
 	height:600px;
 	margin: 1px 0px 0px 0px;
+	position: relative;
+	
 }
 .teamdiv{
 	height:400px;
 	text-align: center;
-	border:1px red solid;
+	/*border:1px red solid;*/
 	padding:10px;
 	}
 /*team images*/
@@ -82,9 +85,10 @@
 	background-color:#4CAF50;
 	color:white;
 	height:150px;
-	margin-top:1px;
+	margin-top:0px;
 	text-align:center;
 	padding:10px;
+	margin-bottom: 0px;
 }
 #thanks{
 	color:black;
@@ -96,4 +100,10 @@
 	color:black;
 	font-size:10px;
 	text-align:right;
+}
+#address{
+	margin-top:0.5px;
+	background-color:#313a3b;
+	text-align: center;
+	color:whitesmoke;
 }

@@ -4,7 +4,9 @@
 		height:100px;
 		width:100%;
 	}
-
+#latest{
+	height:300px;
+}
     *{overflow-x: hidden;}
 	.teamimg{
 		width:150px;
@@ -13,7 +15,7 @@
 
 	.teamdiv{
 	width:100%;
-	height:250px;
+	height:275px;
 	text-align: center;
 	border:1px red solid;
 	margin-bottom:7px;
@@ -24,10 +26,10 @@
 	font-size:12px;
 	}
 	#team{
-		height:1000px;
+		height:2200px;
 	}
 		#aboutus{
-		height:1300px;
+		height:700px;
 	}
 	.sociali{
 		height: 25px;
@@ -35,8 +37,17 @@
 	}
 
 	.footer{
-		margin-top:1px;
-		height:150px;
+		margin-top:0.5px;
+		height:135px;
 		overflow:hidden;
 	}
+	#address{
+		background-color:#313a3b;
+		text-align: center;
+		color:whitesmoke;
+		height:135px;
+		text-size-adjust: auto;
+		margin-top:0.5px;
+	}
+	
 }
