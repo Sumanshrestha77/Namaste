@@ -45,8 +45,12 @@
 		background-color:#313a3b;
 		text-align: center;
 		color:whitesmoke;
-		height:160px;
+		height:200px;
 		margin-top:0.5px;
+	}
+	#btn{
+		background-color: lime;
+		color:black;
 	}
 	
 }
