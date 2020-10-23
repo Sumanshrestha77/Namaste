@@ -1,7 +1,7 @@
 
 *{
 	box-sizing: border-box;
- }
+ }	
  body{
  	overflow-x:hidden;
  }
@@ -13,7 +13,7 @@
  
 
 #service1{
-	background-color:#313a3b;
+	background-color:#697274;
 	color:white;
 	padding: 50px;
 	height:500px;
