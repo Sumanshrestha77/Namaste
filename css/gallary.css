@@ -67,7 +67,8 @@ width: 50%;
     
     #headpic{
         height:100px;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
+        padding:5px;
     }
    
     iframe{
@@ -84,12 +85,11 @@ width: 50%;
        
         }
     div.gallery {
-    margin:3px;
     border: 1px solid whitesmoke;
-    width: 250px;
+    width: auto;
     margin-top:0px;
-    margin-left:55px;
-    padding:0px;
+    
+    padding:5px;
     }
 
     div.gallery:hover {
@@ -109,4 +109,8 @@ width: 50%;
     #youtext{
         size:13px;
     }
+    /*.row {
+        margin-right: -35px;
+        margin-left: -35px;
+    }*/
 }
