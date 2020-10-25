@@ -12,56 +12,32 @@
         <script src="scripts/jquery.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body style="background-image: url('backG.jpg');">
         
-        <div class="row container-fluid" style="width:100%;">
+        <div class="align-items-center">
             <img src="photos/Namaste.jpg" id="headpic" alt="companylogo">
         </div><br><br>
-        Site under construction!!! 
-        Sorry for your inconvenience!
-        <!--
+    <div class="h-100 row align-items-center" id="main">
         <div class="col-md-6" id="info">
             <h4>Why sign up?</h4>
-            <li>
-            <ol>To know about our incoming events</ol>
-            <ul>To get exiciting offer in our services</ul>
-            <ul>To know what we are up to</ul>
-            </li> 
+            <ul>
+            <li>To know about our incoming events</li>
+            <li>To get exiciting offer in our services</li>
+            <li>To know what we are up to</li>
+            </ul> 
         </div>
-        <div class="col-md-6" id="contact">
-            <form method="POST" name="contact_form" action="contact_form_hander.php">
-            <h5>Enter your name:</h5>
-            <input type="text" name="name">
-            <h5>Enter your email:</h5>
-            <input type="text" name="email"><br><br>
+        <div class="container col-md-6" id="contact">
+            <form method="POST" name="contact_form" action="connect.php">
+            <label>Full Name:</label><br>
+            <input type="text" name="username" class="input"><br>
+            <label>Email:</label><br>
+            <input type="text" name="email" class="input"><br>
+            <label>Message:</label> <br>
+            <input type="textarea" name="Message" id="Message"><br><br>
             <button type="submit" value="submit" id="btn">submit</button>
             </form>
         </div>
-        <!--<script>
-            $errors = '';
-$myemail = 'smnxrst39@gmail.com';//<-----Put Your email address here.
-if(empty($_POST['name'])  || 
-   empty($_POST['email']))
-{
-    $errors .= "\n Error: all fields are required";
-}
-
-$name = $_POST['name']; 
-$email_address = $_POST['email'];  
-
-if (!preg_match(
-"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
-$email_address))
-{
-    $errors .= "\n Error: Invalid email address";
-}
-        </script>
-        <script language="JavaScript">
-            var frmvalidator  = new Validator("contactform");
-            frmvalidator.addValidation("name","req","Please provide your name");
-            frmvalidator.addValidation("email","req","Please provide your email");
-            frmvalidator.addValidation("email","email",
-              "Please enter a valid email address");
-            </script>-->
+    </div>
+       
     </body>
 </html>

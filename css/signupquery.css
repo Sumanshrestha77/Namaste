@@ -3,23 +3,29 @@
     #headpic{
         height: 100px;
         width:100%;
-    
+        margin-right: 0px;
+    }
+    #main{
+        padding: 5px;
+        margin:10px;
     }
     #info{
-        background-color:ghostwhite;
+        background-color:sandybrown;
         height:200px;
-        width: 275px;
-        margin-right: 20px;
-        margin-top: 10px;
+        width: 100%;
+        opacity:0.7;
+        align-content: center;
+        align-self: center;
+        padding: 10px;
     } 
     #contact{
-        height:225px;
-        width: 275px;
-        margin-left: 25px;
+        height:300px;
+        width: 100%x;
+        align-content: center;
         margin-top: 10px;
-          
+        margin-right:-10px;
     }
-    input{
+    .input{
         border: 1px solid black;
         border-radius:10px;
         height: 35px;
@@ -32,5 +38,11 @@
         border-radius:10px;
         height:40px;
         width:60px;
+    }
+    #Message{
+        border: 1px solid black;
+        border-radius:10px;
+        height: 65px;
+        width:225px;
     }
 }
