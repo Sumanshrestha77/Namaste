@@ -1,6 +1,8 @@
 <?php
+
 $username = filter_input(INPUT_POST, 'username');
 $email = filter_input(INPUT_POST, 'email');
+$message = filter_input(INPUT_POST, 'message');
 if (!empty($username)){
 if (!empty($email)){
 $host = "sql103.epizy.com";
@@ -17,10 +19,12 @@ die('Connect Error ('. mysqli_connect_errno() .') '
 }
 else{
     
-$sql = "INSERT INTO account (username, email)
-values ('$username','$email')";
+$sql = "INSERT INTO account (username, email, message)
+values ('$username','$email','$message')";
 if ($conn->query($sql)){
+echo "<h3>";
 echo "Thank you for signing up with us!";
+echo "</h3>";
 }
 else{
 echo "Error: ". $sql ."
