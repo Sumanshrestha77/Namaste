@@ -31,7 +31,7 @@
 	background-color:#313a3b;
 	color:white;
 	padding: 50px;
-	height:465px;
+	height:450px;
 	overflow: hidden;
 	margin:0px 0px 1px 0px;
 }
@@ -40,7 +40,7 @@
 	background-color:#313a3b;
 	color:white;
 	padding: 50px;
-	height:400px;
+	height:500px;
 	overflow: hidden;
 	margin:0px 0px 1px 0px;
 }
@@ -111,7 +111,11 @@
 	background-color: green;
 	color:white;
 }
+<<<<<<< HEAD
 @media screen and (min-width:1280px) {
+=======
+@media screen and (max-width:1280px) {
+>>>>>>> 59bdc61a61e65a1e54473f713cba20a938e9221d
 	*{
 		box-sizing: border-box;
 	 }	
@@ -129,7 +133,10 @@
 		background-color:#697274;
 		color:white;
 		padding: 50px;
+<<<<<<< HEAD
 		height:500px;
+=======
+		height:300px;
 		overflow:hidden;
 		margin: 0px 0px 1px 0px;
 	}
@@ -144,9 +151,10 @@
 		background-color:#313a3b;
 		color:white;
 		padding: 50px;
-		height:465px;
+		height:500px;
 		overflow: hidden;
 		margin:0px 0px 1px 0px;
+		position: relative;
 	}
 	
 	#aboutus{
@@ -156,6 +164,8 @@
 		height:400px;
 		overflow: hidden;
 		margin:0px 0px 1px 0px;
+		width: 100%;
+		position:relative;
 	}
 	
 	
@@ -163,7 +173,7 @@
 		background-color:#313a3b;
 		color:white;
 		padding: 25px;
-		height:700px;
+		height:1000px;
 		margin: 1px 0px 0px 0px;
 		position: relative;
 		
@@ -171,7 +181,7 @@
 	.teamdiv{
 		height:400px;
 		text-align: center;
-		border:1px red solid;
+		/*border:1px red solid;*/
 		padding:10px;
 		}
 	/*team images*/
@@ -215,10 +225,158 @@
 		text-align:right;
 	}
 	#address{
+		background-color:#313a3b;
+		text-align: center;
+		color:whitesmoke;
+		padding-bottom: 10px;
+		padding-top:10px;
+		border-top:1px solid white;
+		height:200px;
+	}
+	#btn{
+		background-color: green;
+		color:white;
+	}
+}
+@media screen and (min-width:1280px) {
+	*{
+		box-sizing: border-box;
+	 }	
+	 body{
+		 overflow-x:hidden;
+	 }
+	 
+	 #headpic{
+		width:100%;
+		height:250px; 
+	  }
+	 
+	
+	#service1{
+		background-color:#697274;
+		color:white;
+		padding: 50px;
+		height:300px;
+>>>>>>> 59bdc61a61e65a1e54473f713cba20a938e9221d
+		overflow:hidden;
+		margin: 0px 0px 1px 0px;
+	}
+	#myslide{
+		background-color:#313a3b;
+		height:400px;
+		overflow: hidden;
+		margin:0px 1px 1px 0px;
+		
+	}
+	#latest{
+		background-color:#313a3b;
+		color:white;
+		padding: 50px;
+<<<<<<< HEAD
+		height:465px;
+		overflow: hidden;
+		margin:0px 0px 1px 0px;
+=======
+		height:530px;
+		overflow: hidden;
+		margin:0px 0px 1px 0px;
+		position: relative;
+>>>>>>> 59bdc61a61e65a1e54473f713cba20a938e9221d
+	}
+	
+	#aboutus{
+		background-color:#313a3b;
+		color:white;
+		padding: 50px;
+		height:400px;
+		overflow: hidden;
+		margin:0px 0px 1px 0px;
+<<<<<<< HEAD
+=======
+		width: 100%;
+		position:relative;
+>>>>>>> 59bdc61a61e65a1e54473f713cba20a938e9221d
+	}
+	
+	
+	#team{
+		background-color:#313a3b;
+		color:white;
+		padding: 25px;
+<<<<<<< HEAD
+		height:700px;
+=======
+		height:1000px;
+>>>>>>> 59bdc61a61e65a1e54473f713cba20a938e9221d
+		margin: 1px 0px 0px 0px;
+		position: relative;
+		
+	}
+	.teamdiv{
+		height:400px;
+		text-align: center;
+<<<<<<< HEAD
+		border:1px red solid;
+=======
+		/*border:1px red solid;*/
+>>>>>>> 59bdc61a61e65a1e54473f713cba20a938e9221d
+		padding:10px;
+		}
+	/*team images*/
+	.teamimg{
+		width: 200px;
+		height: 200px;
+		border-radius:50%;
+	}
+	/*team members name and descrition*/
+	.teamdes{
+		text-align: center;
+		font-size:15px;
+		padding:20px;
+	}
+	#social{
+		float: left;
+	}
+	.sociali{
+		height: 50px;
+		width: 50px;
+	}
+	
+	.footer{
+		background-color:#4CAF50;
+		color:white;
+		height:150px;
+		margin-top:0px;
+		text-align:center;
+		padding:10px;
+		margin-bottom: 0px;
+	}
+	#thanks{
+		color:black;
+		font-size:15px;
+		font-weight: bold;
+		text-align:center;
+	}
+	#copyright{
+		color:black;
+		font-size:10px;
+		text-align:right;
+	}
+	#address{
+<<<<<<< HEAD
 		margin-top:0.5px;
 		background-color:#313a3b;
 		text-align: center;
 		color:whitesmoke;
+=======
+		background-color:#313a3b;
+		text-align: center;
+		color:whitesmoke;
+		padding-bottom: 10px;
+		padding-top:10px;
+		border-top:1px solid white;
+		height:200px;
+>>>>>>> 59bdc61a61e65a1e54473f713cba20a938e9221d
 	}
 	#btn{
 		background-color: green;
