@@ -4,36 +4,36 @@
         <title>Sign Up</title>
         <link rel="icon" href="photos/icon.jpg" type="image/icon type">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/signcss.css">
-        <link rel="stylesheet" href="css/signupquery.css">
+        <link rel="stylesheet" href="css/message.css">
+        <link rel="stylesheet" href="css/qmessage.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="scripts/jquery.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </head>
-    <body style="background-image: url('backG.jpg');">
+    <body>
         
-        <div class="align-items-center">
+        <div class="row container-fluid" style="width:auto;">
             <img src="photos/Namaste.jpg" id="headpic" alt="companylogo">
-        </div><br><br>
+        </div>
     <div class="h-100 row align-items-center" id="main">
         <div class="col-md-6" id="info">
-            <h4>Why sign up?</h4>
+            <h4>Message Us:</h4>
             <ul>
             <li>To know about our incoming events</li>
             <li>To get exiciting offer in our services</li>
             <li>To know what we are up to</li>
             </ul> 
         </div>
-        <div class="container col-md-6" id="contact">
+        <div class="" id="contact">
             <form method="POST" name="contact_form" action="connect.php">
             <label>Full Name:</label><br>
-            <input type="text" name="username" class="input"><br>
+            <input type="text" name="username" class="input" required><br>
             <label>Email:</label><br>
-            <input type="text" name="email" class="input"><br>
+            <input type="email" name="email" class="input" required><br>
             <label>Message:</label> <br>
-            <input type="textarea" name="message" id="Message"><br><br>
+            <input type="textarea" name="message" id="Message" required><br><br>
             <button type="submit" value="submit" id="btn">submit</button>
             </form>
         </div>
