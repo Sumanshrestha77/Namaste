@@ -7,7 +7,7 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('sql103.epizy.com', 'epiz_27040581', 'L8PtlQNDC044jt', 'epiz_27040581_signup');
+$db = mysqli_connect('localhost', 'root', '', 'epiz_27040581_signup');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
